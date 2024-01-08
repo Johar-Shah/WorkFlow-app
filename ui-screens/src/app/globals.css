@@ -1,0 +1,155 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+/* 
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+.workflowMGG
+{
+  @apply text-black font-sans text-3xl not-italic font-semibold  m-1
+}
+
+.rexWorkFlow{
+  @apply w-auto border rounded-sm  bg-white p-5 leading-10
+}
+
+.ProcurOvrRP{
+  @apply flex  items-center justify-start w-full h-[56px]  bg-white px-4 py-6 flex-shrink-0 gap-3 rounded 
+}
+
+.PRCRescrPoolBtn{
+  @apply flex justify-center  items-center  p-1   bg-slate-50  w-[400px] h-9 px-2 py-3
+   text-black font-sans text-base not-italic 
+}
+.PrcSol{
+  @apply text-black font-sans  text-lg not-italic font-semibold 
+}
+.cretaedByPM{
+  @apply text-gray-400 font-sans not-italic text-sm font-normal py-3
+}
+.ProvuideGoodsSercices{
+  @apply text-black text-start font-sans text-sm not-italic font-normal py-3
+}
+
+.ProcurementWorkflowSec{
+@apply flex flex-col w-auto px-7
+}
+.WorkFlowBtnsDst{
+  @apply flex flex-row justify-between py-3 items-center
+}
+.PrcuWorkFlowTxt{
+  @apply text-black font-sans text-lg not-italic font-semibold
+}
+.AddUseCases{
+  @apply inline-flex px-1 py-4 justify-center items-center gap-2 border rounded-sm border-blue-500 bg-blue-500 shadow-sm text-white text-center font-sans text-sm not-italic font-normal leading-5 h-[22px]
+}
+.DevelopmentWorkflwoContainer{
+  @apply flex flex-col w-[256px] h-auto text-center gap-3 shadow-md rounded-sm p-3  
+}
+.DevWorkFlowTxt{
+  @apply text-blue-600 font-sans text-sm not-italic font-semibold leading-7
+}
+.totalUseCAsesTxt{
+  @apply text-black font-sans text-sm not-italic  font-bold leading-normal
+}
+.TaskComp{
+  @apply text-slate-300 font-sans text-sm not-italic  font-semibold leading-normal
+}
+.graph{
+  @apply flex justify-center items-center
+}
+
+.GrapohhsDeveWorkflwo{
+  @apply flex flex-wrap justify-start items-center
+}
+
+.ProcurementWorkflowSecGraph{
+  @apply flex flex-col py-10
+}
+
+.AddSelect{
+  @apply flex flex-row px-2 py-4 justify-center items-center gap-2 border rounded-sm border-slate-200 bg-gray-50 shadow-sm text-slate-400 text-center font-sans text-sm not-italic font-normal leading-5 h-[22px]
+}
+
+.AddUseCasesResources{
+  @apply flex flex-row px-5 py-5  justify-center items-center gap-2 border rounded-sm border-slate-200 bg-blue-500  shadow-sm text-white text-center font-sans text-sm not-italic font-normal leading-5 h-[22px] 
+}
+.REsoucresPool{
+  @apply  text-gray-400  font-sans text-base not-italic font-normal leading-normal
+}
+
+.GrphnTxtFlex1{
+  @apply flex flex-row justify-start  items-end text-black font-sans text-xs not-italic font-normal leading-normal   w-28 gap-1
+}
+
+.GaphnleftSection{
+  @apply  flex flex-col justify-start items-end
+}
+
+.taskGrapjs{
+  @apply text-black font-sans  text-sm not-italic font-normal leading-normal
+}
+
+.ProcurementWorkflowSecRP{
+  @apply flex flex-col w-auto px-7 py-2
+}
+
+.ContainerDivClass{
+  @apply flex flex-col justify-center items-center rounded-sm shadow-md w-[200px] h-[150px]
+}
+                    
+.ProjectManager{
+  @apply text-black font-sans text-lg not-italic font-semibold leading-7 py-5
+}
+
+.ProjectManagerSectionFlex{
+  @apply flex flex-wrap gap-3 shadow-md
+}
+
+.AlexBentxt{
+  @apply text-black font-sans text-lg not-italic font-semibold leading-normal
+}
+
+.ProjectManagertxt{
+  @apply text-gray-400 font-sans text-sm not-italic  leading-normal shadow-sm
+}
+
+.workflowbuttons{
+  @apply w-[220px]   flex  justify-center gap-7
+}
+.GrphnTxtFlex{
+  @apply text-black font-sans text-xs not-italic font-normal leading-normal flex  justify-items-center gap-1   flex-row justify-start  items-end w-28
+}
+.mainscrclr{
+  @apply bg-slate-500 w-screen
+}
+.PRCRescrPoolBtn1{
+  @apply  flex justify-center  items-center gap-2 p-1  rounded-sm bg-white  w-[406px] h-[28px] px-2 py-3 shadow-sm text-black font-sans text-base not-italic 
+}
+
+.ProcurementContainer{
+  @apply flex flex-wrap justify-start items-center gap-1 p-5
+}
